@@ -4,18 +4,19 @@
 //
 //  Created by Ethan Hanlon on 7/6/21.
 //
+//  The reason this is a class is because nonstandard frames like 9-tap will inherit from this class
 
 import Foundation
 
-struct Frame {
+
+/// Represents a frame of 10-pin bowling
+class Frame {
     /// Generates a fresh 10-pin bowling frame
     init(num: Int) {
         self.frameNum = num
         self.currentRoll = 1
         self.maxRolls = 2
-        self.rollOneScore = 0
-        self.rollTwoScore = 0
-        self.rollThreeScore = 0
+        self.scores = [Int]()
         self.isSplit = false
         self.isStrike = false
         self.isSpare = false
@@ -33,12 +34,8 @@ struct Frame {
     private var currentRoll: Int
     /// Maximum rolls. Default is two.
     private var maxRolls: Int
-    /// Score of the first roll
-    private var rollOneScore: Int
-    /// Score of the second roll
-    private var rollTwoScore: Int
-    /// Score of the third roll. Should only be set if this is the tenth frame.
-    private var rollThreeScore: Int
+    /// Int array containing the scores of the frame. Indexes are in order of rolls.
+    private var scores: [Int]
     /// Set to true if first roll resulted in a split
     private var isSplit: Bool
     /// Set to true if frame is a strike
@@ -51,7 +48,7 @@ struct Frame {
     /// Knocks down the specified pins.
     /// - Returns Whether or not the operation was succesful
     /// - Parameter knockedDown:knockedDown should be an integer array with the pins to be knocked down - for example, if the player knocked down the 3,4,5, and 10 pins, the parameter should be [3,4,5,10]
-    mutating func roll(knockedDown: [Int]) -> Bool {
+    func roll(knockedDown: [Int]) -> Bool {
         for pin in knockedDown {
             // Make sure that the index is not out of range
             // Subtract pin by one because we are going by pin number, not array index
@@ -62,9 +59,11 @@ struct Frame {
                 return false
             }
         }
-        
+        scores.append(knockedDown.count)
+        currentRoll += 1
         return true
     }
+    
     
     // Mostly just getters at this point
     /// Returns the frame number
@@ -72,28 +71,20 @@ struct Frame {
         return frameNum
     }
     
-    func getPin(num: Int) -> Pin? {
-        for pin in pins {
-            return pin
+    
+    /// Returns the specified pin
+    /// - Parameter pinNumber: The number of the pin to return (ie a value of 5 would return the 5 pin)
+    /// - Returns: The pin specified with pinNumber
+    func getPin(pinNumber: Int) -> Pin {
+        pins.sort {
+            $0.num < $1.num
         }
-        
-        return nil
+        return pins[pinNumber]
     }
     
-    /// Returns the given frame score
-    /// - Parameter frame: Should be 1, 2, or 3.
-    /// - Returns: Returns the roll for the corresponding score. Will return -1 for values out of range.
-    func getFrameScore(frame: Int) -> Int {
-        switch frame {
-        case 1:
-            return rollOneScore
-        case 2:
-            return rollTwoScore
-        case 3:
-            return rollThreeScore
-        default:
-            return -1
-        }
+    /// Returns the scores for the frame
+    func getFrameScore() -> [Int] {
+        return scores
     }
     
     /// Returns whether or not the first roll is a split
@@ -117,8 +108,8 @@ struct Frame {
     }
 }
 
-struct Pin {
-    init(num: Int) {
+class Pin {
+    convenience init(num: Int) {
         self.init(num: num, knockedDown: false)
     }
     

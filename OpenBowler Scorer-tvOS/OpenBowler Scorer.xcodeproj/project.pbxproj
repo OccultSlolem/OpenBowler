@@ -16,6 +16,8 @@
 		327BACA326957346000F8132 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327BACA026957346000F8132 /* Game.swift */; };
 		327BACA426957346000F8132 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327BACA126957346000F8132 /* Frame.swift */; };
 		327BACA526957346000F8132 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327BACA226957346000F8132 /* Player.swift */; };
+		327FFD7D2695864300C7F1B4 /* Lane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FFD7C2695864300C7F1B4 /* Lane.swift */; };
+		327FFD7F269586D500C7F1B4 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FFD7E269586D500C7F1B4 /* GameView.swift */; };
 		32A1CDF926956D7B0027213D /* IdleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A1CDF826956D7B0027213D /* IdleView.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,9 @@
 		327BACA026957346000F8132 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		327BACA126957346000F8132 /* Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		327BACA226957346000F8132 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		327FFD7B26957A4800C7F1B4 /* OpenBowler-Scorer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "OpenBowler-Scorer-Info.plist"; sourceTree = SOURCE_ROOT; };
+		327FFD7C2695864300C7F1B4 /* Lane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lane.swift; sourceTree = "<group>"; };
+		327FFD7E269586D500C7F1B4 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		32A1CDF826956D7B0027213D /* IdleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +105,7 @@
 		3207A623269564A3004864D7 /* OpenBowler Scorer */ = {
 			isa = PBXGroup;
 			children = (
+				327FFD7B26957A4800C7F1B4 /* OpenBowler-Scorer-Info.plist */,
 				3207A624269564A3004864D7 /* OpenBowler_ScorerApp.swift */,
 				3207A626269564A4004864D7 /* ContentView.swift */,
 				327BAC9F26957346000F8132 /* Utility */,
@@ -140,6 +146,7 @@
 				327BACA026957346000F8132 /* Game.swift */,
 				327BACA126957346000F8132 /* Frame.swift */,
 				327BACA226957346000F8132 /* Player.swift */,
+				327FFD7C2695864300C7F1B4 /* Lane.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -148,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				32A1CDF826956D7B0027213D /* IdleView.swift */,
+				327FFD7E269586D500C7F1B4 /* GameView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -288,6 +296,8 @@
 				327BACA326957346000F8132 /* Game.swift in Sources */,
 				327BACA526957346000F8132 /* Player.swift in Sources */,
 				327BACA426957346000F8132 /* Frame.swift in Sources */,
+				327FFD7F269586D500C7F1B4 /* GameView.swift in Sources */,
+				327FFD7D2695864300C7F1B4 /* Lane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,13 +460,17 @@
 				DEVELOPMENT_TEAM = 2W7LLA9UZK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OpenBowler-Scorer-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "OpenBowler Scorer";
+				INFOPLIST_KEY_CFBundleName = "OpenBowler Scorer";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.OpenBowler-Scorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -477,13 +491,17 @@
 				DEVELOPMENT_TEAM = 2W7LLA9UZK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OpenBowler-Scorer-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "OpenBowler Scorer";
+				INFOPLIST_KEY_CFBundleName = "OpenBowler Scorer";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.OpenBowler-Scorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

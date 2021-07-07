@@ -7,6 +7,8 @@
 
 import Foundation
 
-class Player {
-    
+struct Player {
+    var name: String
+    var currentScore: Int
+    var cumulativeScore: Int
 }

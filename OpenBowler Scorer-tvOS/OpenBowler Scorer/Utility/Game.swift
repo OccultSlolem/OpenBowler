@@ -7,6 +7,8 @@
 
 import Foundation
 
-class Game {
-    
+struct Game {
+    var players: [Player]
+    var currentPlayer: Player
+    var gamesRemaining: Double
 }
