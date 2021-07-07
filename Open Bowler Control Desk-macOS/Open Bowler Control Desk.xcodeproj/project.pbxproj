@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		327FFD54269573C100C7F1B4 /* Open_Bowler_Control_DeskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FFD53269573C100C7F1B4 /* Open_Bowler_Control_DeskApp.swift */; };
+		327FFD56269573C100C7F1B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FFD55269573C100C7F1B4 /* ContentView.swift */; };
+		327FFD58269573C300C7F1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327FFD57269573C300C7F1B4 /* Assets.xcassets */; };
+		327FFD5B269573C300C7F1B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327FFD5A269573C300C7F1B4 /* Preview Assets.xcassets */; };
+		327FFD65269573C300C7F1B4 /* Open_Bowler_Control_DeskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FFD64269573C300C7F1B4 /* Open_Bowler_Control_DeskTests.swift */; };
+		327FFD6F269573C300C7F1B4 /* Open_Bowler_Control_DeskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FFD6E269573C300C7F1B4 /* Open_Bowler_Control_DeskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		327FFD61269573C300C7F1B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327FFD48269573C100C7F1B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 327FFD4F269573C100C7F1B4;
+			remoteInfo = "Open Bowler Control Desk";
+		};
+		327FFD6B269573C300C7F1B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327FFD48269573C100C7F1B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 327FFD4F269573C100C7F1B4;
+			remoteInfo = "Open Bowler Control Desk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		327FFD50269573C100C7F1B4 /* Open Bowler Control Desk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Bowler Control Desk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		327FFD53269573C100C7F1B4 /* Open_Bowler_Control_DeskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_Bowler_Control_DeskApp.swift; sourceTree = "<group>"; };
+		327FFD55269573C100C7F1B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		327FFD57269573C300C7F1B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		327FFD5A269573C300C7F1B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		327FFD60269573C300C7F1B4 /* Open Bowler Control DeskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open Bowler Control DeskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		327FFD64269573C300C7F1B4 /* Open_Bowler_Control_DeskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_Bowler_Control_DeskTests.swift; sourceTree = "<group>"; };
+		327FFD6A269573C300C7F1B4 /* Open Bowler Control DeskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open Bowler Control DeskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		327FFD6E269573C300C7F1B4 /* Open_Bowler_Control_DeskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_Bowler_Control_DeskUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		327FFD4D269573C100C7F1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327FFD5D269573C300C7F1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327FFD67269573C300C7F1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		327FFD47269573C100C7F1B4 = {
+			isa = PBXGroup;
+			children = (
+				327FFD52269573C100C7F1B4 /* Open Bowler Control Desk */,
+				327FFD63269573C300C7F1B4 /* Open Bowler Control DeskTests */,
+				327FFD6D269573C300C7F1B4 /* Open Bowler Control DeskUITests */,
+				327FFD51269573C100C7F1B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		327FFD51269573C100C7F1B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				327FFD50269573C100C7F1B4 /* Open Bowler Control Desk.app */,
+				327FFD60269573C300C7F1B4 /* Open Bowler Control DeskTests.xctest */,
+				327FFD6A269573C300C7F1B4 /* Open Bowler Control DeskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		327FFD52269573C100C7F1B4 /* Open Bowler Control Desk */ = {
+			isa = PBXGroup;
+			children = (
+				327FFD53269573C100C7F1B4 /* Open_Bowler_Control_DeskApp.swift */,
+				327FFD55269573C100C7F1B4 /* ContentView.swift */,
+				327FFD57269573C300C7F1B4 /* Assets.xcassets */,
+				327FFD59269573C300C7F1B4 /* Preview Content */,
+			);
+			path = "Open Bowler Control Desk";
+			sourceTree = "<group>";
+		};
+		327FFD59269573C300C7F1B4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				327FFD5A269573C300C7F1B4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		327FFD63269573C300C7F1B4 /* Open Bowler Control DeskTests */ = {
+			isa = PBXGroup;
+			children = (
+				327FFD64269573C300C7F1B4 /* Open_Bowler_Control_DeskTests.swift */,
+			);
+			path = "Open Bowler Control DeskTests";
+			sourceTree = "<group>";
+		};
+		327FFD6D269573C300C7F1B4 /* Open Bowler Control DeskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				327FFD6E269573C300C7F1B4 /* Open_Bowler_Control_DeskUITests.swift */,
+			);
+			path = "Open Bowler Control DeskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		327FFD4F269573C100C7F1B4 /* Open Bowler Control Desk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327FFD72269573C300C7F1B4 /* Build configuration list for PBXNativeTarget "Open Bowler Control Desk" */;
+			buildPhases = (
+				327FFD4C269573C100C7F1B4 /* Sources */,
+				327FFD4D269573C100C7F1B4 /* Frameworks */,
+				327FFD4E269573C100C7F1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Open Bowler Control Desk";
+			productName = "Open Bowler Control Desk";
+			productReference = 327FFD50269573C100C7F1B4 /* Open Bowler Control Desk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		327FFD5F269573C300C7F1B4 /* Open Bowler Control DeskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327FFD75269573C300C7F1B4 /* Build configuration list for PBXNativeTarget "Open Bowler Control DeskTests" */;
+			buildPhases = (
+				327FFD5C269573C300C7F1B4 /* Sources */,
+				327FFD5D269573C300C7F1B4 /* Frameworks */,
+				327FFD5E269573C300C7F1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				327FFD62269573C300C7F1B4 /* PBXTargetDependency */,
+			);
+			name = "Open Bowler Control DeskTests";
+			productName = "Open Bowler Control DeskTests";
+			productReference = 327FFD60269573C300C7F1B4 /* Open Bowler Control DeskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		327FFD69269573C300C7F1B4 /* Open Bowler Control DeskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327FFD78269573C300C7F1B4 /* Build configuration list for PBXNativeTarget "Open Bowler Control DeskUITests" */;
+			buildPhases = (
+				327FFD66269573C300C7F1B4 /* Sources */,
+				327FFD67269573C300C7F1B4 /* Frameworks */,
+				327FFD68269573C300C7F1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				327FFD6C269573C300C7F1B4 /* PBXTargetDependency */,
+			);
+			name = "Open Bowler Control DeskUITests";
+			productName = "Open Bowler Control DeskUITests";
+			productReference = 327FFD6A269573C300C7F1B4 /* Open Bowler Control DeskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		327FFD48269573C100C7F1B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					327FFD4F269573C100C7F1B4 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					327FFD5F269573C300C7F1B4 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 327FFD4F269573C100C7F1B4;
+					};
+					327FFD69269573C300C7F1B4 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 327FFD4F269573C100C7F1B4;
+					};
+				};
+			};
+			buildConfigurationList = 327FFD4B269573C100C7F1B4 /* Build configuration list for PBXProject "Open Bowler Control Desk" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 327FFD47269573C100C7F1B4;
+			productRefGroup = 327FFD51269573C100C7F1B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				327FFD4F269573C100C7F1B4 /* Open Bowler Control Desk */,
+				327FFD5F269573C300C7F1B4 /* Open Bowler Control DeskTests */,
+				327FFD69269573C300C7F1B4 /* Open Bowler Control DeskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		327FFD4E269573C100C7F1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327FFD5B269573C300C7F1B4 /* Preview Assets.xcassets in Resources */,
+				327FFD58269573C300C7F1B4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327FFD5E269573C300C7F1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327FFD68269573C300C7F1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		327FFD4C269573C100C7F1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327FFD56269573C100C7F1B4 /* ContentView.swift in Sources */,
+				327FFD54269573C100C7F1B4 /* Open_Bowler_Control_DeskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327FFD5C269573C300C7F1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327FFD65269573C300C7F1B4 /* Open_Bowler_Control_DeskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327FFD66269573C300C7F1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327FFD6F269573C300C7F1B4 /* Open_Bowler_Control_DeskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		327FFD62269573C300C7F1B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 327FFD4F269573C100C7F1B4 /* Open Bowler Control Desk */;
+			targetProxy = 327FFD61269573C300C7F1B4 /* PBXContainerItemProxy */;
+		};
+		327FFD6C269573C300C7F1B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 327FFD4F269573C100C7F1B4 /* Open Bowler Control Desk */;
+			targetProxy = 327FFD6B269573C300C7F1B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		327FFD70269573C300C7F1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		327FFD71269573C300C7F1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		327FFD73269573C300C7F1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Open Bowler Control Desk/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.Open-Bowler-Control-Desk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		327FFD74269573C300C7F1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Open Bowler Control Desk/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.Open-Bowler-Control-Desk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		327FFD76269573C300C7F1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.Open-Bowler-Control-DeskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Open Bowler Control Desk.app/Contents/MacOS/Open Bowler Control Desk";
+			};
+			name = Debug;
+		};
+		327FFD77269573C300C7F1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.Open-Bowler-Control-DeskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Open Bowler Control Desk.app/Contents/MacOS/Open Bowler Control Desk";
+			};
+			name = Release;
+		};
+		327FFD79269573C300C7F1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.Open-Bowler-Control-DeskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Open Bowler Control Desk";
+			};
+			name = Debug;
+		};
+		327FFD7A269573C300C7F1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.Open-Bowler-Control-DeskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Open Bowler Control Desk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		327FFD4B269573C100C7F1B4 /* Build configuration list for PBXProject "Open Bowler Control Desk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327FFD70269573C300C7F1B4 /* Debug */,
+				327FFD71269573C300C7F1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327FFD72269573C300C7F1B4 /* Build configuration list for PBXNativeTarget "Open Bowler Control Desk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327FFD73269573C300C7F1B4 /* Debug */,
+				327FFD74269573C300C7F1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327FFD75269573C300C7F1B4 /* Build configuration list for PBXNativeTarget "Open Bowler Control DeskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327FFD76269573C300C7F1B4 /* Debug */,
+				327FFD77269573C300C7F1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327FFD78269573C300C7F1B4 /* Build configuration list for PBXNativeTarget "Open Bowler Control DeskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327FFD79269573C300C7F1B4 /* Debug */,
+				327FFD7A269573C300C7F1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 327FFD48269573C100C7F1B4 /* Project object */;
+}

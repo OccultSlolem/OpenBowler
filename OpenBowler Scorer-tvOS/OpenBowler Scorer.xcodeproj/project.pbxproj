@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3207A625269564A3004864D7 /* OpenBowler_ScorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207A624269564A3004864D7 /* OpenBowler_ScorerApp.swift */; };
+		3207A627269564A4004864D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207A626269564A4004864D7 /* ContentView.swift */; };
+		3207A629269564A5004864D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3207A628269564A5004864D7 /* Assets.xcassets */; };
+		3207A62C269564A5004864D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3207A62B269564A5004864D7 /* Preview Assets.xcassets */; };
+		3207A636269564A6004864D7 /* OpenBowler_ScorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207A635269564A6004864D7 /* OpenBowler_ScorerTests.swift */; };
+		3207A640269564A6004864D7 /* OpenBowler_ScorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207A63F269564A6004864D7 /* OpenBowler_ScorerUITests.swift */; };
+		327BACA326957346000F8132 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327BACA026957346000F8132 /* Game.swift */; };
+		327BACA426957346000F8132 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327BACA126957346000F8132 /* Frame.swift */; };
+		327BACA526957346000F8132 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327BACA226957346000F8132 /* Player.swift */; };
+		32A1CDF926956D7B0027213D /* IdleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A1CDF826956D7B0027213D /* IdleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3207A632269564A6004864D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3207A619269564A3004864D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3207A620269564A3004864D7;
+			remoteInfo = "OpenBowler Scorer";
+		};
+		3207A63C269564A6004864D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3207A619269564A3004864D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3207A620269564A3004864D7;
+			remoteInfo = "OpenBowler Scorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3207A621269564A3004864D7 /* OpenBowler Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenBowler Scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3207A624269564A3004864D7 /* OpenBowler_ScorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBowler_ScorerApp.swift; sourceTree = "<group>"; };
+		3207A626269564A4004864D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3207A628269564A5004864D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3207A62B269564A5004864D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3207A631269564A6004864D7 /* OpenBowler ScorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenBowler ScorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3207A635269564A6004864D7 /* OpenBowler_ScorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBowler_ScorerTests.swift; sourceTree = "<group>"; };
+		3207A63B269564A6004864D7 /* OpenBowler ScorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenBowler ScorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3207A63F269564A6004864D7 /* OpenBowler_ScorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBowler_ScorerUITests.swift; sourceTree = "<group>"; };
+		327BACA026957346000F8132 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		327BACA126957346000F8132 /* Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		327BACA226957346000F8132 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		32A1CDF826956D7B0027213D /* IdleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3207A61E269564A3004864D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3207A62E269564A6004864D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3207A638269564A6004864D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3207A618269564A3004864D7 = {
+			isa = PBXGroup;
+			children = (
+				3207A623269564A3004864D7 /* OpenBowler Scorer */,
+				3207A634269564A6004864D7 /* OpenBowler ScorerTests */,
+				3207A63E269564A6004864D7 /* OpenBowler ScorerUITests */,
+				3207A622269564A3004864D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3207A622269564A3004864D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3207A621269564A3004864D7 /* OpenBowler Scorer.app */,
+				3207A631269564A6004864D7 /* OpenBowler ScorerTests.xctest */,
+				3207A63B269564A6004864D7 /* OpenBowler ScorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3207A623269564A3004864D7 /* OpenBowler Scorer */ = {
+			isa = PBXGroup;
+			children = (
+				3207A624269564A3004864D7 /* OpenBowler_ScorerApp.swift */,
+				3207A626269564A4004864D7 /* ContentView.swift */,
+				327BAC9F26957346000F8132 /* Utility */,
+				32A1CDF726956D620027213D /* View */,
+				3207A628269564A5004864D7 /* Assets.xcassets */,
+				3207A62A269564A5004864D7 /* Preview Content */,
+			);
+			path = "OpenBowler Scorer";
+			sourceTree = "<group>";
+		};
+		3207A62A269564A5004864D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3207A62B269564A5004864D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3207A634269564A6004864D7 /* OpenBowler ScorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3207A635269564A6004864D7 /* OpenBowler_ScorerTests.swift */,
+			);
+			path = "OpenBowler ScorerTests";
+			sourceTree = "<group>";
+		};
+		3207A63E269564A6004864D7 /* OpenBowler ScorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3207A63F269564A6004864D7 /* OpenBowler_ScorerUITests.swift */,
+			);
+			path = "OpenBowler ScorerUITests";
+			sourceTree = "<group>";
+		};
+		327BAC9F26957346000F8132 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				327BACA026957346000F8132 /* Game.swift */,
+				327BACA126957346000F8132 /* Frame.swift */,
+				327BACA226957346000F8132 /* Player.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		32A1CDF726956D620027213D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32A1CDF826956D7B0027213D /* IdleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3207A620269564A3004864D7 /* OpenBowler Scorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3207A643269564A6004864D7 /* Build configuration list for PBXNativeTarget "OpenBowler Scorer" */;
+			buildPhases = (
+				3207A61D269564A3004864D7 /* Sources */,
+				3207A61E269564A3004864D7 /* Frameworks */,
+				3207A61F269564A3004864D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenBowler Scorer";
+			productName = "OpenBowler Scorer";
+			productReference = 3207A621269564A3004864D7 /* OpenBowler Scorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3207A630269564A6004864D7 /* OpenBowler ScorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3207A646269564A6004864D7 /* Build configuration list for PBXNativeTarget "OpenBowler ScorerTests" */;
+			buildPhases = (
+				3207A62D269564A6004864D7 /* Sources */,
+				3207A62E269564A6004864D7 /* Frameworks */,
+				3207A62F269564A6004864D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3207A633269564A6004864D7 /* PBXTargetDependency */,
+			);
+			name = "OpenBowler ScorerTests";
+			productName = "OpenBowler ScorerTests";
+			productReference = 3207A631269564A6004864D7 /* OpenBowler ScorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3207A63A269564A6004864D7 /* OpenBowler ScorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3207A649269564A6004864D7 /* Build configuration list for PBXNativeTarget "OpenBowler ScorerUITests" */;
+			buildPhases = (
+				3207A637269564A6004864D7 /* Sources */,
+				3207A638269564A6004864D7 /* Frameworks */,
+				3207A639269564A6004864D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3207A63D269564A6004864D7 /* PBXTargetDependency */,
+			);
+			name = "OpenBowler ScorerUITests";
+			productName = "OpenBowler ScorerUITests";
+			productReference = 3207A63B269564A6004864D7 /* OpenBowler ScorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3207A619269564A3004864D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3207A620269564A3004864D7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3207A630269564A6004864D7 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3207A620269564A3004864D7;
+					};
+					3207A63A269564A6004864D7 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3207A620269564A3004864D7;
+					};
+				};
+			};
+			buildConfigurationList = 3207A61C269564A3004864D7 /* Build configuration list for PBXProject "OpenBowler Scorer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3207A618269564A3004864D7;
+			productRefGroup = 3207A622269564A3004864D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3207A620269564A3004864D7 /* OpenBowler Scorer */,
+				3207A630269564A6004864D7 /* OpenBowler ScorerTests */,
+				3207A63A269564A6004864D7 /* OpenBowler ScorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3207A61F269564A3004864D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3207A62C269564A5004864D7 /* Preview Assets.xcassets in Resources */,
+				3207A629269564A5004864D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3207A62F269564A6004864D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3207A639269564A6004864D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3207A61D269564A3004864D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3207A627269564A4004864D7 /* ContentView.swift in Sources */,
+				3207A625269564A3004864D7 /* OpenBowler_ScorerApp.swift in Sources */,
+				32A1CDF926956D7B0027213D /* IdleView.swift in Sources */,
+				327BACA326957346000F8132 /* Game.swift in Sources */,
+				327BACA526957346000F8132 /* Player.swift in Sources */,
+				327BACA426957346000F8132 /* Frame.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3207A62D269564A6004864D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3207A636269564A6004864D7 /* OpenBowler_ScorerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3207A637269564A6004864D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3207A640269564A6004864D7 /* OpenBowler_ScorerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3207A633269564A6004864D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3207A620269564A3004864D7 /* OpenBowler Scorer */;
+			targetProxy = 3207A632269564A6004864D7 /* PBXContainerItemProxy */;
+		};
+		3207A63D269564A6004864D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3207A620269564A3004864D7 /* OpenBowler Scorer */;
+			targetProxy = 3207A63C269564A6004864D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3207A641269564A6004864D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		3207A642269564A6004864D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3207A644269564A6004864D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenBowler Scorer/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.OpenBowler-Scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		3207A645269564A6004864D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenBowler Scorer/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.OpenBowler-Scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Release;
+		};
+		3207A647269564A6004864D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.OpenBowler-ScorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenBowler Scorer.app/OpenBowler Scorer";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		3207A648269564A6004864D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.OpenBowler-ScorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenBowler Scorer.app/OpenBowler Scorer";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Release;
+		};
+		3207A64A269564A6004864D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.OpenBowler-ScorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "OpenBowler Scorer";
+			};
+			name = Debug;
+		};
+		3207A64B269564A6004864D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.OpenBowler-ScorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "OpenBowler Scorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3207A61C269564A3004864D7 /* Build configuration list for PBXProject "OpenBowler Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3207A641269564A6004864D7 /* Debug */,
+				3207A642269564A6004864D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3207A643269564A6004864D7 /* Build configuration list for PBXNativeTarget "OpenBowler Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3207A644269564A6004864D7 /* Debug */,
+				3207A645269564A6004864D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3207A646269564A6004864D7 /* Build configuration list for PBXNativeTarget "OpenBowler ScorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3207A647269564A6004864D7 /* Debug */,
+				3207A648269564A6004864D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3207A649269564A6004864D7 /* Build configuration list for PBXNativeTarget "OpenBowler ScorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3207A64A269564A6004864D7 /* Debug */,
+				3207A64B269564A6004864D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3207A619269564A3004864D7 /* Project object */;
+}
