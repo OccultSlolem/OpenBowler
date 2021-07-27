@@ -9,6 +9,7 @@ import Foundation
 
 struct Player {
     var name: String
+    var currentFrame: Int
     var currentScore: Int
     var cumulativeScore: Int
 }

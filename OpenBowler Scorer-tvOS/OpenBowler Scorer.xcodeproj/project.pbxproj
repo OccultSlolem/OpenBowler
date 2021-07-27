@@ -13,6 +13,7 @@
 		3207A62C269564A5004864D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3207A62B269564A5004864D7 /* Preview Assets.xcassets */; };
 		3207A636269564A6004864D7 /* OpenBowler_ScorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207A635269564A6004864D7 /* OpenBowler_ScorerTests.swift */; };
 		3207A640269564A6004864D7 /* OpenBowler_ScorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207A63F269564A6004864D7 /* OpenBowler_ScorerUITests.swift */; };
+		325E05C52696C952002BD67F /* NavigationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325E05C42696C952002BD67F /* NavigationHandler.swift */; };
 		327BACA326957346000F8132 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327BACA026957346000F8132 /* Game.swift */; };
 		327BACA426957346000F8132 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327BACA126957346000F8132 /* Frame.swift */; };
 		327BACA526957346000F8132 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327BACA226957346000F8132 /* Player.swift */; };
@@ -48,6 +49,7 @@
 		3207A635269564A6004864D7 /* OpenBowler_ScorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBowler_ScorerTests.swift; sourceTree = "<group>"; };
 		3207A63B269564A6004864D7 /* OpenBowler ScorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenBowler ScorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3207A63F269564A6004864D7 /* OpenBowler_ScorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBowler_ScorerUITests.swift; sourceTree = "<group>"; };
+		325E05C42696C952002BD67F /* NavigationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHandler.swift; sourceTree = "<group>"; };
 		327BACA026957346000F8132 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		327BACA126957346000F8132 /* Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		327BACA226957346000F8132 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -140,6 +142,22 @@
 			path = "OpenBowler ScorerUITests";
 			sourceTree = "<group>";
 		};
+		325E05C22696C934002BD67F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				325E05C32696C93A002BD67F /* Handlers */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		325E05C32696C93A002BD67F /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				325E05C42696C952002BD67F /* NavigationHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
 		327BAC9F26957346000F8132 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +172,7 @@
 		32A1CDF726956D620027213D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				325E05C22696C934002BD67F /* Common */,
 				32A1CDF826956D7B0027213D /* IdleView.swift */,
 				327FFD7E269586D500C7F1B4 /* GameView.swift */,
 			);
@@ -296,6 +315,7 @@
 				327BACA326957346000F8132 /* Game.swift in Sources */,
 				327BACA526957346000F8132 /* Player.swift in Sources */,
 				327BACA426957346000F8132 /* Frame.swift in Sources */,
+				325E05C52696C952002BD67F /* NavigationHandler.swift in Sources */,
 				327FFD7F269586D500C7F1B4 /* GameView.swift in Sources */,
 				327FFD7D2695864300C7F1B4 /* Lane.swift in Sources */,
 			);

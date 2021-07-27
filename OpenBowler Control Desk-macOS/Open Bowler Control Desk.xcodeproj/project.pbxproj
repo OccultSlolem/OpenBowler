@@ -13,6 +13,9 @@
 		327FFD5B269573C300C7F1B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327FFD5A269573C300C7F1B4 /* Preview Assets.xcassets */; };
 		327FFD65269573C300C7F1B4 /* Open_Bowler_Control_DeskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FFD64269573C300C7F1B4 /* Open_Bowler_Control_DeskTests.swift */; };
 		327FFD6F269573C300C7F1B4 /* Open_Bowler_Control_DeskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FFD6E269573C300C7F1B4 /* Open_Bowler_Control_DeskUITests.swift */; };
+		327FFD822695887500C7F1B4 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FFD812695887500C7F1B4 /* AuthView.swift */; };
+		327FFD8826958AB900C7F1B4 /* CustomStyledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FFD8726958AB900C7F1B4 /* CustomStyledTextField.swift */; };
+		32F3545526AFE79D009FE8E4 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F3545426AFE79D009FE8E4 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		327FFD64269573C300C7F1B4 /* Open_Bowler_Control_DeskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_Bowler_Control_DeskTests.swift; sourceTree = "<group>"; };
 		327FFD6A269573C300C7F1B4 /* Open Bowler Control DeskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open Bowler Control DeskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		327FFD6E269573C300C7F1B4 /* Open_Bowler_Control_DeskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_Bowler_Control_DeskUITests.swift; sourceTree = "<group>"; };
+		327FFD812695887500C7F1B4 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		327FFD8726958AB900C7F1B4 /* CustomStyledTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyledTextField.swift; sourceTree = "<group>"; };
+		32F3545426AFE79D009FE8E4 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 			children = (
 				327FFD53269573C100C7F1B4 /* Open_Bowler_Control_DeskApp.swift */,
 				327FFD55269573C100C7F1B4 /* ContentView.swift */,
+				32F3545326AFE78D009FE8E4 /* Utility */,
+				327FFD802695886400C7F1B4 /* View */,
 				327FFD57269573C300C7F1B4 /* Assets.xcassets */,
 				327FFD59269573C300C7F1B4 /* Preview Content */,
 			);
@@ -122,6 +130,39 @@
 				327FFD6E269573C300C7F1B4 /* Open_Bowler_Control_DeskUITests.swift */,
 			);
 			path = "Open Bowler Control DeskUITests";
+			sourceTree = "<group>";
+		};
+		327FFD802695886400C7F1B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				327FFD832695887F00C7F1B4 /* Common */,
+				327FFD812695887500C7F1B4 /* AuthView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		327FFD832695887F00C7F1B4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				327FFD84269588CA00C7F1B4 /* TextAndButtons */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		327FFD84269588CA00C7F1B4 /* TextAndButtons */ = {
+			isa = PBXGroup;
+			children = (
+				327FFD8726958AB900C7F1B4 /* CustomStyledTextField.swift */,
+			);
+			path = TextAndButtons;
+			sourceTree = "<group>";
+		};
+		32F3545326AFE78D009FE8E4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				32F3545426AFE79D009FE8E4 /* AuthService.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +297,9 @@
 			files = (
 				327FFD56269573C100C7F1B4 /* ContentView.swift in Sources */,
 				327FFD54269573C100C7F1B4 /* Open_Bowler_Control_DeskApp.swift in Sources */,
+				32F3545526AFE79D009FE8E4 /* AuthService.swift in Sources */,
+				327FFD8826958AB900C7F1B4 /* CustomStyledTextField.swift in Sources */,
+				327FFD822695887500C7F1B4 /* AuthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

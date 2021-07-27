@@ -9,6 +9,6 @@ import Foundation
 
 struct Game {
     var players: [Player]
-    var currentPlayer: Player
+    var currentPlayer: Int
     var gamesRemaining: Double
 }
