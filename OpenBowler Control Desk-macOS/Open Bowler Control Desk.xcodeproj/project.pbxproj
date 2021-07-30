@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323AEF9A26B3C85E00300386 /* LaneStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323AEF9926B3C85E00300386 /* LaneStatusView.swift */; };
+		323AEF9C26B3C86F00300386 /* Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323AEF9B26B3C86F00300386 /* Setup.swift */; };
+		323AEF9E26B3C8F700300386 /* Lane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323AEF9D26B3C8F700300386 /* Lane.swift */; };
 		327FFD54269573C100C7F1B4 /* Open_Bowler_Control_DeskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FFD53269573C100C7F1B4 /* Open_Bowler_Control_DeskApp.swift */; };
 		327FFD56269573C100C7F1B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FFD55269573C100C7F1B4 /* ContentView.swift */; };
 		327FFD58269573C300C7F1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327FFD57269573C300C7F1B4 /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		323AEF9926B3C85E00300386 /* LaneStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaneStatusView.swift; sourceTree = "<group>"; };
+		323AEF9B26B3C86F00300386 /* Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setup.swift; sourceTree = "<group>"; };
+		323AEF9D26B3C8F700300386 /* Lane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lane.swift; sourceTree = "<group>"; };
 		327FFD50269573C100C7F1B4 /* Open Bowler Control Desk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Bowler Control Desk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		327FFD53269573C100C7F1B4 /* Open_Bowler_Control_DeskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_Bowler_Control_DeskApp.swift; sourceTree = "<group>"; };
 		327FFD55269573C100C7F1B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,6 +143,7 @@
 			children = (
 				327FFD832695887F00C7F1B4 /* Common */,
 				327FFD812695887500C7F1B4 /* AuthView.swift */,
+				323AEF9926B3C85E00300386 /* LaneStatusView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -161,6 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				32F3545426AFE79D009FE8E4 /* AuthService.swift */,
+				323AEF9B26B3C86F00300386 /* Setup.swift */,
+				323AEF9D26B3C8F700300386 /* Lane.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -295,10 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323AEF9A26B3C85E00300386 /* LaneStatusView.swift in Sources */,
 				327FFD56269573C100C7F1B4 /* ContentView.swift in Sources */,
 				327FFD54269573C100C7F1B4 /* Open_Bowler_Control_DeskApp.swift in Sources */,
 				32F3545526AFE79D009FE8E4 /* AuthService.swift in Sources */,
 				327FFD8826958AB900C7F1B4 /* CustomStyledTextField.swift in Sources */,
+				323AEF9E26B3C8F700300386 /* Lane.swift in Sources */,
+				323AEF9C26B3C86F00300386 /* Setup.swift in Sources */,
 				327FFD822695887500C7F1B4 /* AuthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
